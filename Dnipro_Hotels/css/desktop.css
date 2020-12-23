@@ -1,0 +1,136 @@
+body
+{
+    background-color: #FFE8D4;
+}
+.logo
+{
+    width: 30%;
+    height: 200px;
+    background-image: url(../img/logo.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: inline-block;
+}
+.menu
+{
+    position: absolute;
+    top: 60px;
+    right: 25px;
+}
+.menuitem
+{
+    color: #45062E;
+    font-size: 32px;
+    font-family: Tahoma;
+    display: inline-block;
+    margin-left: 25px;
+}
+.window
+{
+    margin: 60px;
+    border-radius: 25px;
+    transition: all 0.25s;
+    display: inline-block;
+    width: 380px;
+    border-color: #DE369D;
+    border-style: solid;
+    border-width: 5px;
+}
+.img
+{
+    background-size: cover;
+    height: 380px;
+    border-radius: 25px;
+}
+.text
+{
+    color: #45062E;
+    margin-top: 20px;
+    margin-right: 10px;
+    margin-left: 10px;
+    font-size: 22px;
+    text-align: center;
+}
+.window1
+{
+    margin: 25px;
+    width: calc(100%-100px);
+}
+.text1
+{
+    color: #45062E;
+    font-size: 32px;
+}
+.line
+{
+    background-color: #6F5E76;
+    height: 40px;
+    font-size: 32px;
+    text-align: right;
+    color:aliceblue;
+    margin-bottom: 20px;
+}
+.info
+{
+    margin:auto;
+    margin-right: 50px;
+    margin-left: 50px;
+    border-radius: 25px;
+    transition: all 0.25s;
+    display: inline-block;
+    width: calc(100% - 100px);
+    border-color: #45062E;
+    border-style: solid;
+    border-width: 5px;
+}
+.title
+{
+    width: calc(100% - 100px);
+    background-position: center;
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 50px;
+    font-size: 64px;
+}
+.p1
+{
+    text-indent: 45px;
+}
+.window:hover
+{
+    box-shadow: 0px 0px 50px darkblue;
+    transform: scale(1.1);
+}
+input[type="checkbox"]
+{
+    display: none;
+}
+.burger
+{
+    display: none;
+}
+.map
+{
+    margin:auto;
+    width: 90px;
+    height: 475px;
+}
+.images
+{
+    width: 50%;
+    height: 400px;
+}
+.video
+{
+    width: 70%;
+    height: 300px;
+}
+.source
+{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+a
+{
+    color:darkgreen;
+}
